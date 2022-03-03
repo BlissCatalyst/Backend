@@ -10,10 +10,10 @@ const playlistsRouter = require('../routes/playlists/playlists-router.js');
 const users = require('../routes/user/users.js');
 const songListRouter = require('../routes/song-list/song-list-router.js');
 
-// Test Route
-// server.get("/", (req, res) => {
-//   res.status(200).json({ message: "This works!!!" });
-// });
+Test Route
+server.get("/", (req, res) => {
+res.status(200).json({ message: "This works!!!" });
+});
 
 server.use('/api/register', registerRouter);
 server.use('/api/user/playlists', playlistsRouter);
