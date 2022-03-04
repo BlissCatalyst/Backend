@@ -31,6 +31,5 @@
   },
   "jest": {
     "testEnvironment": "node"
-  },
-  "proxy": "https://fantabulous-music-finder.herokuapp.com/"
+  }
 }
