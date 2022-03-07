@@ -14,7 +14,7 @@ const cors = require("cors");
 // }
 
 module.exports = server => {
-  server.use(cors(corsOptions));
+  server.use(cors(/*corsOptions*/));
   server.use(helmet());
   server.use(express.json());
 };
